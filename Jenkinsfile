@@ -6,6 +6,7 @@ pipeline {
             steps {
                 sh 'pwd'
                 sh 'ls -al'
+                echo 'dasdasdassadsad'
             }
         }
         stage('Show ROS environment variables') {
